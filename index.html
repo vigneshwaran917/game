@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to game show</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Number Guessing Game</h1>
+        <h2>Rules:</h2>
+        <div id="aaa">
+            <li>Select a number from 1 to 100</li>
+            <li>Click on the check button</li>
+            <li>It will give you a hint to guess the number correctly</li>
+            <li>Repeat the same step until you find the Number</li>
+        </div>
+        <input type="number" name="num" id="n1" placeholder="Enter The Number">
+        <h2 id="result">Wait for the Result!!!</h2>
+        <h1 id="count">0</h1>
+        <div id="ring">
+            <button id="jack" type="submit" onclick="findnum()">Check</button>
+            <button id="kcaj" type="submit" onclick="window.location.reload()">Reset</button>
+        </div>
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body{
+    background-image: url(./kW3V0l.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main{
+    height: 470px;
+    width: 480px;
+    margin: auto;
+    margin-top: 150px;
+    opacity: 0.8;
+    text-align: center;  
+    border: 2px solid black;
+}
+#aaa{
+    text-align: justify;
+    margin-left: 40px;
+    font-size: 19px;
+}
+#result{
+    margin-top: 25px;
+    font-size: 30px;
+}
+#n1{
+    margin-top: 20px;
+    text-align: center;
+}
+button{
+    height: 30px;
+    width: 80px;
+}
+button:hover{
+    background-color: rgb(178, 218, 228);
+}
+#jack{
+    margin-right: 100px;
+    border-radius: 20px;
+}
+#kcaj{
+    border-radius: 20px;
+}
